@@ -1,0 +1,6 @@
+c:\code\github\BullHornToSimplyHiredXmlConverter\XmlConverter\bin\Debug\XmlConverter.dll
+c:\code\github\BullHornToSimplyHiredXmlConverter\XmlConverter\bin\Debug\XmlConverter.pdb
+c:\code\github\BullHornToSimplyHiredXmlConverter\XmlConverter\bin\Debug\SmartFormat.dll
+c:\code\github\BullHornToSimplyHiredXmlConverter\XmlConverter\obj\Debug\XmlConverter.csprojResolveAssemblyReference.cache
+c:\code\github\BullHornToSimplyHiredXmlConverter\XmlConverter\obj\Debug\XmlConverter.dll
+c:\code\github\BullHornToSimplyHiredXmlConverter\XmlConverter\obj\Debug\XmlConverter.pdb

@@ -1,0 +1,12 @@
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\bin\Debug\Tester.exe.config
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\bin\Debug\Tester.exe
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\bin\Debug\Tester.pdb
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\bin\Debug\XmlConverter.dll
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\bin\Debug\SmartFormat.dll
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\bin\Debug\XmlConverter.pdb
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\obj\Debug\DSheldon.Main.resources
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\obj\Debug\DSheldon.Properties.Resources.resources
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\obj\Debug\Tester.exe
+c:\code\github\BullHornToSimplyHiredXmlConverter\Tester\obj\Debug\Tester.pdb
