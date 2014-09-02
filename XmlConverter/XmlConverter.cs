@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Xml;
 
 namespace DSheldon {
@@ -87,10 +88,10 @@ namespace DSheldon {
                     job.JobTitle = reader.ReadElementContentAsString().Trim();
 
                     reader.ReadToFollowing("link");
-                    job.DetailUrl = reader.ReadElementContentAsString().Trim();
+                    job.DetailUrl = HttpUtility.HtmlEncode(reader.ReadElementContentAsString().Trim());
 
                     reader.ReadToFollowing("description");
-                    job.Description = reader.ReadElementContentAsString().Trim().Replace("<", "&lt;").Replace(">", "&gt;");
+                    job.Description = HttpUtility.HtmlEncode(reader.ReadElementContentAsString().Trim());
                     jobs.Add(job);
                 }
             }
@@ -99,7 +100,7 @@ namespace DSheldon {
                 simplyHiredXml.Append(job.ToXml());
             }
             simplyHiredXml.AppendLine(String.Empty);
-            simplyHiredXml.Append("<jobs>");
+            simplyHiredXml.Append("</jobs>");
 
             return simplyHiredXml.ToString();
         }

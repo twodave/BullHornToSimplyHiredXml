@@ -11,14 +11,11 @@ namespace DSheldon.Controllers.Api
     public class BullHornToSimplyHiredXmlController : ApiController
     {
         // POST api/bullhorntosimplyhiredxml
-        public HttpResponseMessage Post() {
-
-            var t = this.Request.Content.ReadAsStringAsync();
-            t.Wait();
-            t.Result.ToString();
-
+        public HttpResponseMessage Get() {
+            WebClient wc = new WebClient();
+            string xml = wc.DownloadString(@"http://cls4.bullhornstaffing.com/JobBoard/Standard/JobOpportunitiesRSS.cfm?privateLabelID=7270&category");
             return new HttpResponseMessage() {
-                Content = new StringContent(BullHornXmlConverter.ToSimplyHiredXml(t.Result), Encoding.UTF8, "application/xml")
+                Content = new StringContent(BullHornXmlConverter.ToSimplyHiredXml(xml), Encoding.UTF8, "application/xml")
             };
         }
     }
