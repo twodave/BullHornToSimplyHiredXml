@@ -32,6 +32,7 @@ namespace DSheldon {
             
             public string City {
                 get {
+                    return "Anywhere";
                     if (this.Description != null && this.Description.ToUpper().Contains("LOCATION:")) {
                         int locationStart = this.Description.ToUpper().IndexOf("LOCATION:") + 9;
                         int cityEnd = locationStart + this.Description.ToUpper().Substring(locationStart).IndexOf(",");

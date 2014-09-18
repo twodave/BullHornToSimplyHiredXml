@@ -10,7 +10,7 @@ namespace DSheldon.Controllers.Api
 {
     public class BullHornToSimplyHiredXmlController : ApiController
     {
-        // POST api/bullhorntosimplyhiredxml
+        // GET api/bullhorntosimplyhiredxml
         public HttpResponseMessage Get() {
             WebClient wc = new WebClient();
             string xml = wc.DownloadString(@"http://cls4.bullhornstaffing.com/JobBoard/Standard/JobOpportunitiesRSS.cfm?privateLabelID=7270&category");
