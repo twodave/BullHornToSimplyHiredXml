@@ -86,7 +86,7 @@ namespace DSheldon {
                     SimplyHiredJob job = new SimplyHiredJob();
 
                     reader.ReadToFollowing("title");
-                    job.JobTitle = reader.ReadElementContentAsString().Trim();
+                    job.JobTitle = HttpUtility.HtmlEncode(reader.ReadElementContentAsString().Trim());
 
                     reader.ReadToFollowing("link");
                     job.DetailUrl = HttpUtility.HtmlEncode(reader.ReadElementContentAsString().Trim());
